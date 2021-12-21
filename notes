@@ -1,0 +1,73 @@
+Brightness:
+set with 'xbacklight -set #'
+permission addition in /etc/udev/rules
+
+Background packs: /usr/share/[...]
+x11-themes/verne-backgrounds
+x11-themes/larry-backgrounds
+x11-themes/fedora-backgrounds
+x11-themes/gentoo10-backgrounds
+kde-plasma/plasma-workspace-wallpapers
+
+`
+git help tutorial
+check /etc/hosts
+doas emerge app-text/texlive
+
+* Messages for package media-gfx/imagemagick-7.1.0.5:
+
+  * For security reasons, a policy.xml file was installed in /etc/ImageMagick-7
+   * which will prevent the usage of the following coders by default:
+    *
+     *   - PS
+      *   - PS2
+       *   - PS3
+        *   - EPS
+         *   - PDF
+          *   - XPS
+
+           * Messages for package x11-wm/awesome-4.3-r101:
+
+            * If you are having issues with Java application windows being
+             * completely blank, try installing
+              *   x11-misc/wmname
+               * and setting the WM name to LG3D.
+                * For more info visit
+                 *   https://bugs.gentoo.org/show_bug.cgi?id=440724
+                 >>> Auto-cleaning packages...
+
+                 >>> No outdated packages were found on your system.
+
+                  * GNU info directory index is up-to-date.
+
+                   * IMPORTANT: 23 news items need reading for repository 'gentoo'.
+                    * Use eselect news read to view new items.
+
+LOADING KERNEL MODULES: vim /etc/modules-load.d/network.conf
+
+ADDING SCRIPTS/COMMAND:
+1. chmod 755 filenamenoextension
+2. add file to /usr/share/bin or any other pre-existing $PATH
+
+
+No rule to make target '/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include/stddef.h'
+Default Keyring:unknown
+
+
+USB STICK:
+# fdisk -l
+# mount /dev/sd(letter)1 /mount_point_1
+
+ENABLE CHINESE FONTS:
+emerge media-fonts/arphicfonts media-fonts/font-isas-misc  media-fonts/wqy-bitmapfont media-fonts/intlfonts
+
+Use `eselect fontconfig` to enable/disable them.
+
+eselect fontconfig enable 85-wqy-bitmapsong.conf
+
+On a laptop you can use `XF86MonBrightnessUp` and `XF86MonBrightnessDown` keys.
+
+
+
+DISCORD HELP:
+Device Drivers > Pin controllers > "< > AMD GPIO pin control"
