@@ -1,16 +1,16 @@
 XORG: (xwallpaper) (xscreensaver) (xclip) (xkill) (unclutter)
 WINDOW MANAGER: (awesome) (dwm)
-TERMINAL: (st)
-TEXT EDITOR: (vim) (VScodium)
+TERMINAL: (st) (kitty)
+TEXT EDITOR: (nvim) (VScodium)
 PDF VIEWER: (evince)
 IMAGE VIEWER: (feh)
 FONTS: (Fontawesome)
 VIDEO PLAYER: (mpv)
 POWER SOLUTION: (ACPI)
 INTERNET BROWSER: (Firefox)
-SCREENSHOTS: (scrot)
+SCREENSHOTS: (-)
 
-FILE MANAGER: (pcmanfm) (ranger)
+FILE MANAGER: (pcmanfm)
 + file system support for usb
     +exfat-utils
     +fuse-exfat
@@ -27,6 +27,4 @@ NETWORK SOLUTION:
     +wificon dmenu scripts
     (+wpa_supplicant for wifi)?
 
-AUDIO SOLUTION: (WIP) - ALSA
-
-~Lucas
+AUDIO SOLUTION: Pulseaudio, or you're on your own
