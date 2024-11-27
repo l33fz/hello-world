@@ -1,2 +1,1 @@
-# hello-world
-Various resources and ideas
+Moved to Markdown Vault
